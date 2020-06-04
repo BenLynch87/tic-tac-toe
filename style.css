@@ -12,12 +12,15 @@ main {
     height: 300px;
     border: 2px solid green;
     padding: 1px;
+    text-align: center;
 }
 .grid-cell {
     width: 96px;
     height: 96px;
     border: 1px solid blue;
     margin: 1px;
+    line-height: 96px;
+    font-size: 96px;
 }
 .grid-cell:hover {
     background: orange;
