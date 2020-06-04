@@ -16,7 +16,7 @@ const cellElementArray = document.querySelectorAll('.grid-cell');
 function checkForWin(winningCombination, playerSelections){
     for (let i = 0; i < winningCombination.length; i++){
         let matches = 0;
-        for (let i2 = 0; i < 3; i++){
+        for (let i2 = 0; i2 < 3; i2++){
             if (playerSelections.includes(winningCombination[i][i2])){
                 matches++;
             }
